@@ -12,6 +12,19 @@ header {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+    /*2nd header customization*/
+#p05 {
+    clear: right;
+    color: black;
+    background-color: lightgrey;
+    margin-top: 0;
+    font-size: 15px;
+    width: 960px;
+}
+
+
+
     /*body customizing*/
 div {
     clear: both;
