@@ -95,20 +95,53 @@ body {
 }
 
 .box-set {
-    background: darkgrey;
+    background: white;
     box-sizing: border-box;
     width:960px;
-    height: 650px;
+    height: 1000px;
     margin-left:260px;
     margin-top: 60px;
     padding: 20px;
+    border-top: 5px solid black;
 }
 
 .image {
     position: relative;
     float: left;
-    border: 1px solid black;
-    height: 175px;
-    width: 175px;
 }
 
+#Hangman {
+    margin:20px
+}
+
+#RPGgame {
+    margin:20px;
+}
+
+#Triviagame {
+    margin:20px;
+}
+
+#Rutgersinfowidget {
+    margin:20px;
+}
+
+#Rockpaperscissors {
+    margin:20px;
+}
+
+h3 {
+    position : absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 32px;
+    width: 300px;
+    z-index:5;
+    bottom: 30px;
+    left:20px;
+    height:30px;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
